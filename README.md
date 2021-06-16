@@ -20,3 +20,13 @@ data from Jan 22 to April 25 and save it in the `data/` folder of this directory
 ​```bash
 python scripts/update_data.py --end 2020-04-25
 ​```
+
+### Visualization
+
+Once the data is downloaded, run the `make_plot.py` script to create an interactive 
+plot of the confirmed cases by country. 
+
+```bash
+mkdir figures
+python scripts/make_plot.py
+```
